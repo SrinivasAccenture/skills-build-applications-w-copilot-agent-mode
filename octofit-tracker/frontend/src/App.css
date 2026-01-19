@@ -1,0 +1,143 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #1a2233;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+.App-link, .navbar a, .nav-link {
+  color: #007bff !important;
+  transition: color 0.2s;
+}
+.App-link:hover, .navbar a:hover, .nav-link:hover {
+  color: #0056b3 !important;
+}
+
+/* Bootstrap Table Customization */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+thead.table-dark th {
+  background: #1a2233 !important;
+  color: #f9d923 !important;
+}
+tbody tr:hover {
+  background: #f1f3f6;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background: #f9d923;
+  color: #1a2233;
+  border: none;
+}
+.btn-primary:hover {
+  background: #f7b32b;
+  color: #fff;
+}
+.btn-success {
+  background: #43aa8b;
+  border: none;
+}
+.btn-success:hover {
+  background: #2d6a4f;
+}
+.btn-info {
+  background: #577590;
+  border: none;
+}
+.btn-info:hover {
+  background: #1a2233;
+}
+.btn-warning {
+  background: #f3722c;
+  border: none;
+}
+.btn-warning:hover {
+  background: #f8961e;
+}
+.btn-secondary {
+  background: #277da1;
+  border: none;
+}
+.btn-secondary:hover {
+  background: #1a2233;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .card-title {
+  color: #1a2233;
+  font-weight: 700;
+}
+
+/* Navbar Customization */
+.navbar {
+  background: linear-gradient(90deg, #1a2233 60%, #f9d923 100%) !important;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+.navbar-brand {
+  color: #f9d923 !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #f9d923 !important;
+}
+
+/* Card Customization */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+
+/* Favicon */
+link[rel="icon"] {
+  border-radius: 50%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
